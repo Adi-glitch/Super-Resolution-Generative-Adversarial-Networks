@@ -63,6 +63,7 @@ For deploying the trained model, follow these steps:
 
 * Load the trained generator model using the SRGenerator class by uploading the D.pt and G.pt files in the model folder in google colab.
 * Use the load_state_dict method to load the saved model parameters.
+* Size of our stored model: D.pt - 60 MB and G.pt - 27 MB
   
 2. Inference:
 
