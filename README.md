@@ -38,13 +38,13 @@ The training process is encapsulated in the train function within the SRGAN.ipyn
 
 Three loss components contribute to the overall generator loss (err_G):
 
-#### Perceptual Loss (criterion_G): 
+#### 1. Perceptual Loss (criterion_G): 
 Measures the difference between the generated image and the ground truth in a perceptually meaningful way.
 
-#### Adversarial Loss (criterion_D): 
+#### 2. Adversarial Loss (criterion_D): 
 Captures the discriminator's ability to distinguish between real and fake images.
 
-#### Pixel Loss and VGG Loss: 
+#### 3. Pixel Loss and VGG Loss: 
 Additional components contributing to the overall generator loss.
 
 ### Model Checkpoints and Visualization:
